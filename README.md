@@ -27,4 +27,6 @@ one of the  perfect  solutions is our regular database (with business/credential
 
 
 the Crypto Admin  can create and use keys thanks to the key manager; the Manager is connected with the safe via interface and a key documentation so it brings us to the conclusion that  the key admin can modify  keys but before any operations take effect he must be authenticated and authorizated by the  key manager- in real life scenario all inforamtion requried to do so are stored in key manager's database.
-The best whereabout of key manager is dedicated server under surveillance
+The best whereabouts of key manager is dedicated server under surveillance
+
+My egine idea is regarding to key size,algorithm,mode and complements, for instance I use : 128-bits AES in CBC mode with PKCS#5 complement
