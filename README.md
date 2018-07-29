@@ -34,3 +34,6 @@ My egine idea is regarding to key size,algorithm,mode and complements, for insta
 Provider is an entry porint to the crypto infrastructure. Mutual communication between provider and consument is based upon encryption requests and their results.
 Encrpytion request is made of plain text but decryption's result are made of receipt,alis ID and IV
 Provider works as cohesive device -orgranize cooperation between consument,documentation and engine
+
+Consumer is heart of crypto infrastructue -it is a reson why such crypto infrastructure even exists
+Consumer must 'understand' data in handle, it must know what is important and what not 
