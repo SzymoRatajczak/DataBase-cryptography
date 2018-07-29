@@ -26,5 +26,5 @@ Thing of big importance is whereabouts of documentation database, it's really ur
 one of the  perfect  solutions is our regular database (with business/credentials data)
 
 
-the Crypto Admin  can create and use keys thanks to the key manager; the Manager is connected with the safe via interface and a key documentation so it brings us to the conclusion that  the key admin can modife  keys but before any operations take effect he must be authenticated and authorizated by the  key manager- in real life scenario all inforamtion requried to do so are stored in key manager's database.
+the Crypto Admin  can create and use keys thanks to the key manager; the Manager is connected with the safe via interface and a key documentation so it brings us to the conclusion that  the key admin can modify  keys but before any operations take effect he must be authenticated and authorizated by the  key manager- in real life scenario all inforamtion requried to do so are stored in key manager's database.
 The best whereabout of key manager is dedicated server under surveillance
