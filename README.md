@@ -30,3 +30,7 @@ the Crypto Admin  can create and use keys thanks to the key manager; the Manager
 The best whereabouts of key manager is dedicated server under surveillance
 
 My egine idea is regarding to key size,algorithm,mode and complements, for instance I use : 128-bits AES in CBC mode with PKCS#5 complement
+
+Provider is an entry porint to the crypto infrastructure. Mutual communication between provider and consument is based upon encryption requests and their results.
+Encrpytion request is made of plain text but decryption's result are made of receipt,alis ID and IV
+Provider works as cohesive device -orgranize cooperation between consument,documentation and engine
