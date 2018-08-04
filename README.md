@@ -19,7 +19,7 @@ Normally, in real life scenarios  we are using (at least)two databases:
 
 I chose to use HSM that's because it's much secure approach than an  application serever
 
-Key safe stores key and provides them to the local machine ( to be more precesily it is a table in a database)
+Key safe stores key and provides them to the local machine ( to be more preceisly it is a table in a database)
 Key's database should be protected e.g by limited access
 
 Thing of big importance is whereabouts of documentation database, it's really urgent matter because  it must be  located in a different place than key's database (for security measures)
@@ -32,7 +32,7 @@ The best whereabouts of key manager is dedicated server under surveillance
 My egine idea is regarding to key size,algorithm,mode and complements, for instance I use : 128-bits AES in CBC mode with PKCS#5 complement
 
 Provider is an entry porint to the crypto infrastructure. Mutual communication between provider and consument is based upon encryption requests and their results.
-Encrpytion request is made of plain text but decryption's result are made of receipt,alis ID and IV
+Encrpytion request is made of plain text but decryption's result are made of receipt,alias ID and IV
 Provider works as cohesive device -orgranize cooperation between consument,documentation and engine
 
 Consumer is heart of crypto infrastructue -it is a reson why such crypto infrastructure even exists
